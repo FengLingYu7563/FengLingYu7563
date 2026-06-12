@@ -1,0 +1,57 @@
+<svg width="900" height="150" viewBox="0 0 900 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated introduction for FengLingYu7563</title>
+  <desc id="desc">Animated text saying Hi, I'm FengLingYu7563 and a short introduction.</desc>
+  <style>
+    .title {
+      font: 800 46px "Segoe UI", Inter, Arial, sans-serif;
+      fill: #e5e7eb;
+      animation: fadeUp 700ms ease-out both;
+      text-anchor: middle;
+    }
+    .accent {
+      fill: #38bdf8;
+    }
+    .subtitle {
+      font: 500 20px "Segoe UI", Inter, Arial, sans-serif;
+      fill: #94a3b8;
+      opacity: 0;
+      animation: fadeUp 700ms ease-out 450ms both;
+      text-anchor: middle;
+    }
+    .cursor {
+      animation: blink 900ms steps(2, start) infinite;
+    }
+    .line {
+      stroke: #38bdf8;
+      stroke-width: 4;
+      stroke-linecap: round;
+      stroke-dasharray: 620;
+      stroke-dashoffset: 620;
+      animation: drawLine 900ms ease-out 900ms both;
+    }
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+    @keyframes drawLine {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <rect width="900" height="150" rx="18" fill="#0d1117"/>
+  <text class="title" x="450" y="64">Hi, I'm <tspan class="accent">FengLingYu7563</tspan><tspan class="cursor">_</tspan></text>
+  <text class="subtitle" x="450" y="105">Building, learning, and shipping small ideas into real projects.</text>
+  <path class="line" d="M140 126H760"/>
+</svg>
