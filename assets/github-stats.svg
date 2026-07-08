@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="495" height="165" viewBox="0 0 495 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FengLingYu7563 GitHub stats</title>
+  <desc id="desc">Automatically generated GitHub profile statistics.</desc>
+  <style>
+    .card { fill: #0d1117; }
+    .title { fill: #58a6ff; font: 600 18px Segoe UI, Ubuntu, Sans-Serif; }
+    .label { fill: #c9d1d9; font: 400 14px Segoe UI, Ubuntu, Sans-Serif; }
+    .value { fill: #f0f6fc; font: 700 14px Segoe UI, Ubuntu, Sans-Serif; }
+    .accent { fill: #f85149; }
+  </style>
+  <rect class="card" width="495" height="165" rx="6"/>
+  <text x="24" y="34" class="title">FengLingYu7563's GitHub Stats</text>
+  <circle class="accent" cx="463" cy="28" r="5"/>
+  
+      <text x="32" y="63" class="label">Total Stars</text>
+      <text x="463" y="63" text-anchor="end" class="value">0</text>
+      <text x="32" y="88" class="label">Public Repos</text>
+      <text x="463" y="88" text-anchor="end" class="value">9</text>
+      <text x="32" y="113" class="label">Forks</text>
+      <text x="463" y="113" text-anchor="end" class="value">0</text>
+      <text x="32" y="138" class="label">Languages</text>
+      <text x="463" y="138" text-anchor="end" class="value">7</text>
+  <text x="24" y="148" class="label">Updated by GitHub Actions</text>
+</svg>

@@ -37,18 +37,18 @@
 
 <p align="center">
   <a href="https://github.com/FengLingYu7563/discord-bot-demo">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=FengLingYu7563&repo=discord-bot-demo&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false&cache_seconds=1800&v=20260613" alt="discord-bot-demo repository card" />
+    <img src="./assets/discord-bot-demo-card.svg" alt="discord-bot-demo repository card" />
   </a>
   <a href="https://github.com/FengLingYu7563/Wynnmaze">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=FengLingYu7563&repo=Wynnmaze&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false&cache_seconds=1800&v=20260613" alt="Wynnmaze repository card" />
+    <img src="./assets/wynnmaze-card.svg" alt="Wynnmaze repository card" />
   </a>
 </p>
 
 ## GitHub Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=FengLingYu7563&show_icons=true&theme=github_dark&hide_border=true" alt="FengLingYu7563 GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FengLingYu7563&layout=compact&theme=github_dark&hide_border=true" alt="FengLingYu7563 top languages" />
+  <img height="165" src="./assets/github-stats.svg" alt="FengLingYu7563 GitHub stats" />
+  <img height="165" src="./assets/top-langs.svg" alt="FengLingYu7563 top languages" />
 </p>
 
 ## How to reach me
