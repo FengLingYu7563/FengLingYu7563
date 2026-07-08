@@ -80,7 +80,7 @@ function renderStatsCard(stats) {
   ];
 
   const rowSvg = rows.map(([label, value], index) => {
-    const y = 63 + index * 25;
+    const y = 58 + index * 22;
     return `
       <text x="32" y="${y}" class="label">${escapeXml(label)}</text>
       <text x="463" y="${y}" text-anchor="end" class="value">${escapeXml(value)}</text>`;
@@ -101,6 +101,7 @@ function renderStatsCard(stats) {
   <text x="24" y="34" class="title">${escapeXml(username)}'s GitHub Stats</text>
   <circle class="accent" cx="463" cy="28" r="5"/>
   ${rowSvg}
+  <text x="24" y="150" class="label">Updated by GitHub Actions</text>
 </svg>
 `;
 }
