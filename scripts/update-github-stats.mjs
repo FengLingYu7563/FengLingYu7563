@@ -101,7 +101,6 @@ function renderStatsCard(stats) {
   <text x="24" y="34" class="title">${escapeXml(username)}'s GitHub Stats</text>
   <circle class="accent" cx="463" cy="28" r="5"/>
   ${rowSvg}
-  <text x="24" y="148" class="label">Updated by GitHub Actions</text>
 </svg>
 `;
 }
